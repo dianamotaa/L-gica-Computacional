@@ -874,8 +874,8 @@ def _(mo):
 
     O LLM ajudou-nos a estruturar o início do projeto e a perceber a
     estrutura pedida no enunciado (a abstração `box` e as suas
-    especializações). 
-    
+    especializações).
+
     Nenhuma resposta do LLM foi aceite sem ser executada e testada.
      ### Verificação
 
@@ -883,10 +883,9 @@ def _(mo):
     do notebook: cada linha, coluna e bloco contém $1 \ldots n^2$ sem
     repetições, as pistas são respeitadas e entradas inválidas são
     rejeitadas. Testámos também grelhas $4 \times 4$ e $9 \times 9$.
-
     """)
     return
+
+
 if __name__ == "__main__":
     app.run()
-    
-
